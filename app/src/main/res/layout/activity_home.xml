@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ChatActivity"
+    android:background="#FDF6BF"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/layout"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFDF1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderbottom"
+                android:gravity="center"
+                android:orientation="horizontal"
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:id="@+id/join_room_click"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                  <ImageView
+                      android:id="@+id/img_join"
+                      android:layout_width="28dp"
+                      android:layout_height="match_parent"
+                      android:layout_marginRight="10dp"
+                      app:srcCompat="@drawable/selection" />
+
+                  <TextView
+                      android:id="@+id/txt_join_room"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Join Room"
+                      android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bordertest"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/create_room_click"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                  <ImageView
+                      android:id="@+id/img_plus"
+                      android:layout_width="28dp"
+                      android:layout_height="match_parent"
+                      android:layout_marginRight="10dp"
+                      app:srcCompat="@drawable/plus" />
+
+                  <TextView
+                      android:id="@+id/textView2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Create room"
+
+                      android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:text="My room"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical">
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="30dp"
+
+                android:fillViewport="true">
+              <LinearLayout
+                  android:id="@+id/linear"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+              </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <LinearLayout
+          android:id="@+id/linearLayout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:background="@color/colorLightGray"
+          android:orientation="horizontal"
+          android:paddingHorizontal="10dp">
+
+          <LinearLayout
+              android:id="@+id/logout_click"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:paddingTop="15dp"
+              android:paddingBottom="15dp">
+
+              <ImageView
+                  android:id="@+id/imageView"
+                  android:layout_width="28dp"
+                  android:layout_height="28dp"
+
+                  android:layout_marginRight="10dp"
+                  app:srcCompat="@drawable/logout" />
+
+              <TextView
+                  android:id="@+id/txt_logout"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="logout"
+                  android:textSize="20sp" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="35dp"
+              android:layout_height="match_parent"
+              android:background="@drawable/bordertest"
+              android:paddingTop="20dp"
+              android:paddingBottom="10dp">
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/profile_click"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:paddingTop="15dp"
+
+              android:paddingBottom="15dp">
+
+              <ImageView
+                  android:id="@+id/img_profile_home"
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:layout_marginRight="10dp"
+                  android:shape="oval"
+                  tools:srcCompat="@tools:sample/avatars" />
+
+              <TextView
+                  android:id="@+id/txt_profile"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="profile"
+                  android:textSize="20sp" />
+
+
+          </LinearLayout>
+
+
+      </LinearLayout>
+
+  </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

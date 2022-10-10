@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CowooTalk</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="google_client_id">1036808132118-43uf0vdaermg0jln9m5n0nk1lau8197n.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">384594542922561</string>
+    <string name="fb_login_protocol_scheme">fb384594542922561</string>
+
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="connect_another">or connect with</string>
+
+
+    <string name="addimg_des">Add of edit profile image</string>
+    <string name="username">Username</string>
+    <string name="display_name">Display name</string>
+    <string name="password">Password</string>
+    <string name="password_des">A password consists of alphabet and number only amount 8-15 letters</string>
+    <string name="password_con">Confirm password</string>
+    <string name="button_create">Create</string>
+    <string name="button_save">Save</string>
+    <string name="button_back">Back</string>
+    <string name="button_changepwd">Change Password</string>
+    <string name="password_cur">Current password</string>
+    <string name="password_new">New password</string>
+    <string name="password_connew">Confirm New password</string>
+</resources>

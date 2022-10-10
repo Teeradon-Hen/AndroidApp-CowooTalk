@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1036808132118",
+    "firebase_url": "https://cowootalk-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cowootalk",
+    "storage_bucket": "cowootalk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036808132118:android:d42d3cd09276abb69f8737",
+        "android_client_info": {
+          "package_name": "com.example.cowootalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036808132118-4asgplh4iban60o6v9fsoa7bb9u8dhkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWB3W49EZslt3hlIMjYYF8CEFfWkww-vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036808132118-4asgplh4iban60o6v9fsoa7bb9u8dhkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036808132118:android:d5683becc7e602bb9f8737",
+        "android_client_info": {
+          "package_name": "com.example.cowootalkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036808132118-4asgplh4iban60o6v9fsoa7bb9u8dhkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWB3W49EZslt3hlIMjYYF8CEFfWkww-vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036808132118-4asgplh4iban60o6v9fsoa7bb9u8dhkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
